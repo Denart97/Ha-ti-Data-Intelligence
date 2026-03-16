@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Database & Data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/chroma_db/
+*.sqlite
+*.log
+logs/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Static analysis
+.mypy_cache/
+.pytest_cache/
